@@ -184,7 +184,6 @@ header h2 {
     height: 80px;
     width: 760px;
     padding-right: 120px;
-    margin-left: 0px;
     font-family: Georgia;
     font-size: 220%;
     text-align: center;
@@ -257,7 +256,7 @@ footer > a[href*="creativecommons.org"] {
     background-position: center bottom;
 }
 
-/* format "created by/copyright/permisions" print paragraph text */
+/* format "created by/copyright/permisions" text */
 footer p {
     width: 560px;
     font-size: 12px;
@@ -443,7 +442,6 @@ width: 32px;
 margin: 4px;
 }
 
-#view #preview:target .btn,
 #view #preview:hover .btn {
     opacity: 0.6 !important;
     pointer-events: auto;
@@ -783,7 +781,7 @@ a[data-tooltip]:before {
   opacity: 0;
   z-index: 100;
   pointer-events: none;
-  transition: opacity 0.3s 1.0s;
+  transition: opacity 0.3s 0s;
 }
 
 /* Show the tooltip on hover */
